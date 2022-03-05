@@ -132,6 +132,21 @@ body {
   padding: 8px 20px;
 
   transition: 0.5s;
+
+  opacity: 0;
+  visibility: hidden;
+}
+
+.container .card:hover .contentBox .size {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
+}
+
+.container .card:hover .contentBox .color {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.6s;
 }
 
 .container .card .contentBox .size h3,
